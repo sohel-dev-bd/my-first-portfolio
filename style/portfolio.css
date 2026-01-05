@@ -18,6 +18,23 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.about-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.about-heading h4{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.about-heading p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+
+}
 
 /* logo */
 .logo h3 {
@@ -87,4 +104,32 @@ nav .menu a{
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+/* about style */
+#about{
+    padding-top:130px ;
+}
+#about .about-container{
+    width: 91%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 131px 157px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #181818;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    color: #757575;
 }
