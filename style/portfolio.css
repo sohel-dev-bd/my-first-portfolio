@@ -22,14 +22,15 @@
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
+    padding-top: 30px;
 }
-.about-heading h4{
+.section-heading h4{
     font-size: 35px;
     margin-bottom: 30px;
     font-weight: bold;
     color: #181818;
 }
-.about-heading p{
+.section-heading p{
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
@@ -45,12 +46,16 @@
 .color-orange{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+    padding-top: 113px;
+}
 /* main style */
 header{
     background-color:#fff8f3 ;
     padding-top: 50px;
     background-image: url("../images/developer.png" ), url("../images/header_bg.png");
-    background-position: top left, right bottom;
+    background-position: 23px 50px, right bottom;
     background-repeat: no-repeat;
 }
 
@@ -108,7 +113,7 @@ nav .menu a{
 }
 
 /* about style */
-#about{
+#about, #skills, #resume{
     padding-top:130px ;
 }
 #about .about-container{
@@ -129,6 +134,7 @@ nav .menu a{
     line-height: 30px;
     font-weight: bold;
     color: #181818;
+    
 }
 .about-info .info-card p{
     font-size: 20px;
@@ -136,11 +142,6 @@ nav .menu a{
 }
 
 /* skills */
-#skills{
-    padding-top: 130px; 
-    
-}
-
 #skills .skills-container{
     width: 91%;
     max-width: 1140px;
@@ -176,4 +177,82 @@ nav .menu a{
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+#resume .resume-container{
+    width: 91%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+}
+/* #resume.section-title{
+    padding-top: 30;
+    
+} */
+
+#resume .card-title{
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+    padding-top: 30px;
+}
+#resume .card-info{
+    font-size: 20px;
+    font: weight 600px;
+    color:#757575;
+    padding-top: 23px;
+}
+#resume .card-text{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    padding-top: 7px;
+    padding-bottom: 30px;
+}
+.exparince{
+    max-width: 511px;
+    padding-top: 113px;  
+}
+.education{
+     max-width: 511px;
+    padding-top: 113px; 
+    padding-right: 71px;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 91%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container .social p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .icon a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
 }
